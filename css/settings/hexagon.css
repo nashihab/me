@@ -30,7 +30,7 @@
 .page-2 .photo:after {
 	content: '';
 	position: absolute;
-	left: 38px;
+	left: 37px;
 	top: 0;
 	border-right: 25px solid transparent;
 	z-index: 1;

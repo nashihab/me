@@ -1,31 +1,5 @@
-/* -----------------------------------------------
-				CSS Styles
---------------------------------------------------
 
-    Template Name: Trail - Personal Portfolio Template
-    Author: Malyarchuk
-    Copyright: 2020
 
---------------------------------------------------
-
-Table of Content
-
-	01. Body and Core
-	02. Home Section
-	03. About Section
-	04. Portfolio Section
-	05. Blog Section
-	06. Contact Section
-	07. Blog List
-	08. Blog Page
-	09. Preloader Css
-	10. Ajax Portfolio
-	11. Responsible Css
------------------------------------ */
-
-/* -----------------------------------
-		01. Body and Core Css
------------------------------------ */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 
 * {

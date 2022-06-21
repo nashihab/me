@@ -128,6 +128,72 @@
 				
 			</div>
 			
+
+
+			<div class="popup-screen">
+				<div class="popup-box">
+				  <i id="pp"class="fas fa-times close-btn"></i>
+				  <h2 id="pp">Greetings!!</h2>
+				  <p id="pp">To navigate, use the three bar menu icon on left. Enjoy...</p>
+				  <a href="#" id="cb2" class="btn">Ok</a>
+					
+				  
+				</div>
+			  </div>
+
+			  <script type="text/javascript">
+				const cb = document.querySelector("#cb2");
+				const popupScreen = document.querySelector(".popup-screen");
+				const popupBox = document.querySelector(".popup-box");
+				const closeBtn = document.querySelector(".close-btn");
+		
+				window.addEventListener("load", () => {
+				  setTimeout(() => {
+					popupScreen.classList.add("active");
+				  }, 2000); //Popup the screen in 02 seconds after the page is loaded.
+				});
+				//cross button
+				closeBtn.addEventListener("click", () => {
+				  popupScreen.classList.remove("active"); //Close the popup screen on click the close button.
+				  //Create a cookie for a day (to expire within a day) on click the close button.
+				  document.cookie = "WebsiteName=nahidahmed; max-age=" + 24 * 60 * 60; //1 day = 24 hours = 24*60*60
+				});
+
+				//Ok button as close
+				cb.addEventListener("click", () => {
+				  popupScreen.classList.remove("active"); //Close the popup screen on click the close button.
+				  //Create a cookie for a day (to expire within a day) on click the close button.
+				  document.cookie = "WebsiteName=nahidahmed; max-age=" + 24 * 60 * 60; //1 day = 24 hours = 24*60*60
+				});
+
+
+
+				//Use the created cookie to hide or show the popup screen.
+				const WebsiteCookie = document.cookie.indexOf("WebsiteName=nahidahmed");
+			
+				if(WebsiteCookie != -1){
+				  popupScreen.style.display = "flex"; //Hide the popup screen if the cookie is not expired.
+				}
+				else{
+				  popupScreen.style.display = "flex"; //Show the popup screen if the cookie is expired.
+				}
+				</script>
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			<!-- Page -->
 			<div class="page page-1 active" style="background-image: url(img/home-bg.jpg);">
 				

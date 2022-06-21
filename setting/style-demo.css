@@ -228,7 +228,11 @@
     padding: 7px 27px;
     border-radius: 3px;
   }
-  
+  .popup-box .btn:hover{
+    background: paleturquoise;
+  }
+
+
   .close-btn{
     position: absolute;
     font-size: 1em;

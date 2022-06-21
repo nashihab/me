@@ -315,3 +315,11 @@
   #pp{
    color: black;
   }
+  .popup-box {
+    box-shadow: 0 0 .1rem #fff,
+    0 0 .1rem #fff,
+    0 0 1.5rem #bc13fe,
+    0 0 0.1rem #bc13fe,
+    0 0 1.6rem #bc13fe,
+    inset 0 0 1rem #bc13fe; 
+  }

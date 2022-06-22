@@ -169,7 +169,7 @@
 .popup-screen{
     z-index: 999999;
     position: fixed;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     width: 100%;
     height: 100vh;
@@ -189,7 +189,7 @@
     position: relative;
     background: transparent;
     backdrop-filter: blur(10px);
-    max-width: 30%;
+    max-width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +208,7 @@
   }
   
   .popup-box h4{
-    font-size: 2em;
+    font-size: 1em;
     font-weight: 800;
     margin-bottom: 20px;
     

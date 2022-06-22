@@ -1,14 +1,4 @@
-/* -----------------------------------------------
-				Scripts
---------------------------------------------------
-
-    Template Name: Trail - Personal Portfolio Template
-    Author: Malyarchuk
-    Copyright: 2020
-
---------------------------------------------------
-
-Table of Content
+/* Table of Content
 
 	01. Preloader
 	02. Isotope Portfolio
@@ -19,7 +9,7 @@ Table of Content
 	07. Box
 	08. Map
 	09. Validate Contact Form
-	10. Ajax Portfolio
+	10. Portfolio
 
 ----------------------------------- */
 $(window).on('load', function() {
@@ -241,7 +231,7 @@ $(document).ready(function() {
 	
 });
 
-/* 10. Ajax Portfolio */
+/* 10.Portfolio */
 function ajaxPortfolioSetup($ajaxLink, $ajaxContainer) {
     $ajaxLink.on('click', function(e) {
         var link = $(this).attr('href');

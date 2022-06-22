@@ -187,9 +187,9 @@
   
   .popup-box{
     position: relative;
-    background: rgba(255, 255, 255, 0.8);
+    background: transparent;
     backdrop-filter: blur(10px);
-    max-width: 350px;
+    max-width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,6 +211,7 @@
     font-size: 2em;
     font-weight: 800;
     margin-bottom: 20px;
+    
   }
   
   .popup-box p{
@@ -314,7 +315,7 @@
   
 
   #pp{
-   color: black;
+   color: rgb(255, 255, 255);
   }
   .popup-box {
     box-shadow: 0 0 .1rem #fff,

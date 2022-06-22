@@ -408,8 +408,8 @@ blockquote:after,
 	top: -50%;
 	left: 0;
 	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
-	-webkit-animation: run 3s 0s infinite;
-			animation: run 3s 0s infinite;
+	-webkit-animation: run 7s 0s infinite;
+			animation: run 7s 0s infinite;
 	-webkit-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
 	-webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
@@ -421,8 +421,8 @@ blockquote:after,
 }
 
 .bg-lines .bg-line:nth-child(1)::after {
-	-webkit-animation-delay: 1s;
-			animation-delay: 1s;
+	-webkit-animation-delay: 2s;
+			animation-delay: 2s;
 }
 
 .bg-lines .bg-line:nth-child(3) {
@@ -439,8 +439,8 @@ blockquote:after,
 }
 
 .bg-lines .bg-line:nth-child(4)::after {
-	-webkit-animation-delay: 1.2s;
-			animation-delay: 1.2s;
+	-webkit-animation-delay: 1.5s;
+			animation-delay: 1.5s;
 }
 
 .bg-lines .bg-line:nth-child(5) {
@@ -448,8 +448,8 @@ blockquote:after,
 }
 
 .bg-lines .bg-line:nth-child(5)::after {
-	-webkit-animation-delay: 1s;
-			animation-delay: 1s;
+	-webkit-animation-delay: 2s;
+			animation-delay: 2s;
 }
 
 /* Margin & Padding */

@@ -279,7 +279,7 @@
   
   .info{
     position: relative;
-    width: 52%;
+    width: 100%;
   }
   
   .info h2{
@@ -324,3 +324,9 @@
     0 0 1.6rem #bc13fe,
     inset 0 0 1rem #bc13fe; 
   }
+
+
+
+
+
+

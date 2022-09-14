@@ -990,7 +990,7 @@
 				</div>
 				
 				<section class="container">
-					
+					<form onsubmit="sendEmail(); reset(); return false;">
 					<!-- Form Start -->
 					<div class="form-block mt-100 mb-100">
 						<div class="ac">
@@ -1017,7 +1017,7 @@
   															<span class="top"><b>Send Message</b></span>
 															<span class="bottom"><b>Send Message</b></span>
 														</button>
-                                						<div id="loader">
+                                						<!--div id="loader">
                                     						<i class="fas fa-sync"></i>
                                 						</div>
                             						</div>
@@ -1030,7 +1030,7 @@
 																<i class="far fa-times-circle"></i>Error occurred while sending email. Please try again later.
 															</div>
 														</div>
-                            						</div>
+                            						</div-->
 												</div>
                     						</form>
 										</div>
@@ -1102,8 +1102,22 @@
 	
 	<script src="setting/main-demo.js"></script>
 	
-	<!-- Page Script -->
-	<script src="js/plugins/mgGlitch.min.js"></script>
-		
-	
+
+	<!--sending mail-->
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		function sendEmail(){
+			Email.send({
+    Host : "smtp.gmail.com",
+    Username : "nahidshihab112@gmail.com",
+    Password : "tadashi@#$%1",
+    To : 'nahidshihab112@gmail.com',
+    From : document.getElementById(email).value,
+    Subject : "This is the subject",
+    Body : "Name:" +document.getElementById("name").value + "<br>Email"+document.getElementById("email").value+"<br>Message:"+document.getElementById("note").value
+}).then(
+  note => alert("Sent successfully")
+);
+		}
+	</script>
 </body>

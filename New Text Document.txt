@@ -1,9 +1,0 @@
-	
-	!-- Ajax  --
-	!--div class=-portfolio
-		span class=-loaderspan
-		div class=content-wrap
-			span class=popup-closei class=far fa-times-circleispan
-			div class=popup-contentdiv
-		div
-	div--

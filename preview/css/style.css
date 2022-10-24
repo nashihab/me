@@ -533,14 +533,6 @@ section h3 {
 	margin: 10px 0 50px;
 }
 
-/* Background */
-.parallax-facts {
-	background-image: url(../img/bg-1.jpg);
-}
-
-.parallax-contact {
-	background-image: url(../img/bg-2.png);
-}
 
 /* Background Container */ 
 .hero-fullscreen {

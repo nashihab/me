@@ -171,7 +171,7 @@ $(document).ready(function() {
 			popupTextit = jQuery('#map').data('popuptext'),
 			map = L.map('map').setView(latlog, 15);
 		L.tileLayer(jQuery('#map').data('map-back'), {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            attribution: '&copy; <a href="#">Nahid</a> contributors',
             format: 'png'
         }).addTo(map);
         var greenIcon = L.icon({
